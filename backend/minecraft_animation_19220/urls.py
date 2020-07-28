@@ -38,9 +38,9 @@ urlpatterns = [
     path("home/", include("home.urls")),
 ]
 
-admin.site.site_header = "Minecraft Animation"
-admin.site.site_title = "Minecraft Animation Admin Portal"
-admin.site.index_title = "Minecraft Animation Admin"
+admin.site.site_header = "Text App"
+admin.site.site_title = "Text App Admin Portal"
+admin.site.index_title = "Text App Admin"
 
 # swagger
 schema_view = get_schema_view(
